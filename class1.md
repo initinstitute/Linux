@@ -1,51 +1,183 @@
-Create an ec2 instance (Server, Virtual Machine, Node)
+# AWS EC2 Instance Creation Guide
 
-Step-by-Step Guide to Create an EC2 Instance
-Log in to AWS Management Console:
+## What is an EC2 Instance?
 
-Go to the AWS Management Console and log in with your credentials.
-Navigate to EC2:
+An EC2 Instance is a virtual server (Server / Virtual Machine / Node) provided by AWS that allows you to run applications in the cloud.
 
-In the AWS Management Console, search for “EC2” in the services search bar and select it.
-Launch Instance:
+---
 
-Click on the “Launch Instance” button.
-Choose an Amazon Machine Image (AMI):
+# Step-by-Step Guide to Create an EC2 Instance
 
-Select an AMI that suits your needs (e.g., Amazon Linux, Ubuntu, RHEL). You can choose from free-tier eligible options if you're just getting started.
-Choose an Instance Type:
+## Step 1: Log in to AWS Management Console
 
-Select the instance type (e.g., t2.micro for free tier). Click “Next: Configure Instance Details” after making your selection.
-Configure Instance Details:
+1. Open the AWS Management Console.
+2. Sign in using your AWS account credentials.
 
-Set the number of instances, network settings, and other details. For a simple setup, the default settings are usually sufficient. Click “Next: Add Storage.”
-Add Storage:
+---
 
-Modify the storage size if necessary. The default is typically sufficient, but you can add more if needed. Click “Next: Add Tags.”
-Review and Launch:
+## Step 2: Navigate to EC2 Service
 
-Review your instance configuration. Click “Launch.”
-Select or Create a Key Pair:
+1. Search for **EC2** in the AWS services search bar.
+2. Select **EC2** from the results.
 
-If you don’t have a key pair, create a new one and download it (keep it safe; you won't be able to download it again). If you have one, select it. Click “Launch Instances.”
-View Instances:
+---
 
-Click on “View Instances” to see your new EC2 instance. It may take a few minutes to initialize.
-Accessing Your EC2 Instance
-For Linux Instances:
+## Step 3: Launch an Instance
 
-Use SSH to connect. The command will look like this:
-ssh -i /path/to/your-key.pem <username>@<your-ec2-public-ip>
-For an Amazon Linux AMI, the username is ec2-user.
-For a CentOS AMI, the username is centos or ec2-user.
-For a Debian AMI, the username is admin.
-For a Fedora AMI, the username is fedora or ec2-user.
-For a RHEL AMI, the username is ec2-user or root.
-For a SUSE AMI, the username is ec2-user or root.
-For an Ubuntu AMI, the username is ubuntu.
-For an Oracle AMI, the username is ec2-user.
-For a Bitnami AMI, the username is bitnami.
+1. Click **Launch Instance**.
+2. Enter a name for your instance.
 
-Preffered SSH client: 
+---
 
-git bash 
+## Step 4: Choose an Amazon Machine Image (AMI)
+
+Select the operating system for your server:
+
+- Amazon Linux
+- Ubuntu
+- Red Hat Enterprise Linux (RHEL)
+- CentOS
+- Debian
+- Fedora
+- SUSE Linux
+- Oracle Linux
+
+> **Note:** Choose a Free Tier eligible AMI if you are learning AWS.
+
+---
+
+## Step 5: Choose an Instance Type
+
+Select the required instance type.
+
+**Example:**
+
+- `t2.micro` (Free Tier Eligible)
+
+Click **Next** to continue.
+
+---
+
+## Step 6: Configure Instance Details
+
+Configure:
+
+- Number of instances
+- Network settings
+- Security settings
+
+For beginners, the default configuration is usually sufficient.
+
+---
+
+## Step 7: Add Storage
+
+Modify storage if required.
+
+Default storage is generally enough for practice and learning purposes.
+
+---
+
+## Step 8: Review and Launch
+
+Review all configurations and click **Launch Instance**.
+
+---
+
+## Step 9: Create or Select a Key Pair
+
+### If you do not have a key pair:
+
+1. Click **Create New Key Pair**.
+2. Download the `.pem` file.
+3. Store it safely.
+
+⚠️ **Important:** AWS allows downloading the key only once.
+
+### If you already have a key pair:
+
+Select the existing key pair and continue.
+
+---
+
+## Step 10: View Your Instance
+
+1. Click **View Instances**.
+2. Wait for the instance status to become **Running**.
+
+Your EC2 instance is now ready.
+
+---
+
+# Accessing Your EC2 Instance
+
+## Connect to Linux EC2 Instance
+
+Use the following SSH command:
+
+```bash
+ssh -i /path/to/your-key.pem <username>@<public-ip-address>
+```
+
+### Example
+
+```bash
+ssh -i aws-key.pem ec2-user@54.123.45.67
+```
+
+---
+
+# Default Usernames for Different AMIs
+
+| Operating System | Default Username |
+|------------------|------------------|
+| Amazon Linux | ec2-user |
+| CentOS | centos / ec2-user |
+| Debian | admin |
+| Fedora | fedora / ec2-user |
+| RHEL | ec2-user / root |
+| SUSE Linux | ec2-user / root |
+| Ubuntu | ubuntu |
+| Oracle Linux | ec2-user |
+| Bitnami | bitnami |
+
+---
+
+# Summary
+
+✅ Logged into AWS Console
+
+✅ Navigated to EC2 Service
+
+✅ Launched an EC2 Instance
+
+✅ Selected AMI and Instance Type
+
+✅ Configured Storage and Security
+
+✅ Created/Selected Key Pair
+
+✅ Connected using SSH
+
+---
+
+## Daily Class Notes - Day 01
+
+### Topics Covered
+
+- Introduction to Cloud Computing
+- AWS Overview
+- AWS Global Infrastructure
+- What is EC2?
+- EC2 Instance Creation
+- SSH Access to EC2
+- Understanding Key Pairs
+
+### Practice Task
+
+Create:
+
+- 1 Amazon Linux EC2 Instance
+- 1 Ubuntu EC2 Instance
+
+Connect to both instances using SSH and verify access.
