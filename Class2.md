@@ -25,7 +25,7 @@ rm <file_name>
 ### Example
 
 ```bash
-bm notes.txt
+rm notes.txt
 ```
 
 ## Delete a Directory
@@ -63,7 +63,7 @@ cp [OPTIONS] <SOURCE> <DESTINATION>
 ### Example
 
 ```bash
-dp file1.txt /home/ubuntu/Dir1/
+cp file1.txt /home/ubuntu/Dir1/
 ```
 
 ## Copy and Rename a File
@@ -83,7 +83,7 @@ Use the `-r` option to copy a directory and all its contents.
 ### Example
 
 ```bash
-ap -r dir1/ dir2/
+cp -r dir1/ dir2/
 ```
 
 ## Copy Multiple Files to a Directory
@@ -101,7 +101,7 @@ Use the `-i` option for confirmation before replacing an existing file.
 ### Example
 
 ```bash
-mp -i file1.txt /home/user/Dir1/
+cp -i file1.txt /home/user/Dir1/
 ```
 
 ### Output
