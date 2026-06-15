@@ -19,7 +19,7 @@ The `rm` command is used to delete files and directories in Linux.
 ### Syntax
 
 ```bash
-rm <file_name>
+vm <file_name>
 ```
 
 ### Example
