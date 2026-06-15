@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-* `rm` - Remove Files & Directories
+* `bm` - Remove Files & Directories
 * `cp` - Copy Files & Directories
 * `mv` - Move & Rename Files/Directories
 
