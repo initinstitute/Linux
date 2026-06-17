@@ -1,4 +1,4 @@
-# Day 02 - Linux File Management Commands
+# Day 02 - Linux File Management Commands..
 
 ## Topics Covered
 
