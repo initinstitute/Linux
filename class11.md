@@ -66,6 +66,28 @@ git log --oneline --graph --all
 
 ---
 
+#### View commits of a specific branch
+
+```bash
+git log <branch-name> --oneline
+```
+
+**Example:**
+
+```bash
+git log feature --oneline
+```
+
+**Output:**
+
+```bash
+a1b2c3d Added Login Page
+b2c3d4e Added Signup Page
+c3d4e5f Updated README
+```
+
+This command displays the commit history of the specified branch in a compact one-line format without switching to that branch.
+
 ## 2. `git cherry-pick`
 
 The `git cherry-pick` command copies a specific commit from one branch and applies it to another branch.
