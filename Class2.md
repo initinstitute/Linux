@@ -1,12 +1,3 @@
-# Day 02 - Linux File Management Commands
-
-## Topics Covered
-
-* `rm` - Remove Files & Directories
-* `cp` - Copy Files & Directories
-* `mv` - Move & Rename Files/Directories
-
----
 
 # 1. rm Command (Remove Files and Directories)
 
