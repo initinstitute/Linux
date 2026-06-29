@@ -1,4 +1,3 @@
-# Class16.md
 
 # Jenkins - Configure Worker (Slave) Node and Pipelines
 
