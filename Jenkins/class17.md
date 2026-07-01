@@ -1,5 +1,5 @@
 # Class 17 Notes: Scripted vs Declarative Jenkins Pipeline
-LINK: https://youtu.be/2PgwprTVi0k
+Class Link/URL: https://youtu.be/2PgwprTVi0k
 ## What is a Jenkins Pipeline?
 
 A Jenkins Pipeline is a collection of steps that automates the software build, test, and deployment process. Pipelines are written using **Groovy**.
