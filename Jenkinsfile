@@ -8,7 +8,7 @@ pipeline{
     }
     stage(stage2){
       steps{
-        sh"sleep 80"
+        sh"sleep 90"
       }
     }
      stage(stage3){
