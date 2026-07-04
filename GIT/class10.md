@@ -1,4 +1,4 @@
-# Day 9 - Git Configuration, Credentials, Aliases, Git Pull, Cherry-Pick & GitHub Token
+# Day 9 - Git Configuration, Credentials, Aliases, Git Pull, Cherry-Pick & GitHub Token.
 
 ## Configure User Information
 
