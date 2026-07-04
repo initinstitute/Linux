@@ -1,0 +1,20 @@
+pipeline{
+  agent any
+  stages{
+    stage(trial){
+      steps{
+        echo "this is from github jenkins file"
+      }
+    }
+    stage(stage2){
+      steps{
+        sh"sleep 100"
+      }
+    }
+     stage(stage3){
+      steps{
+        echo "pipeline is completed"
+      }
+    }
+  }
+}
