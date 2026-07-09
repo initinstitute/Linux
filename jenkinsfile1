@@ -1,11 +1,15 @@
 pipeline {
     agent any
+environment{
+BRANCH = 'main'
+GIT_URL = 'https://github.com/initinstitute/Linux.git'
+CREDENTIAL_ID = 'github-tocken_init'
+}
 
-    stages {
-
+    stages {       
         stage('trial') {
             steps {
-                echo "This is from GitHub Jenkinsfile"
+                echo "This is from GitHub ${env.BRANCH}"
             }
         }
 
