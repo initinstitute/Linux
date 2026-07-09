@@ -19,7 +19,6 @@ stage (parallel){
            }
        }
   }
-
      stage(stage4){
       steps{
         echo "pipeline is completed"
