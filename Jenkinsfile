@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage(trial){
       agent{
-        label 'agent1'
+        label 'agent1,develop'
       }
       steps{
         echo "this is from github jenkins file"
@@ -11,7 +11,7 @@ pipeline{
     }
     stage(stage2){
         agent{
-        label 'agent1'
+        label 'agent1,develop'
       }
       steps{
         sh"sleep 90"
@@ -19,7 +19,7 @@ pipeline{
     }
      stage(stage3){
          agent{
-        label 'agent1'
+        label 'agent1,develop'
       }
       steps{
         echo "pipeline is completed"
