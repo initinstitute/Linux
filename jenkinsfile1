@@ -9,7 +9,7 @@ CREDENTIAL_ID = 'github-tocken_init'
     stages {       
         stage('trial') {
             steps {
-                echo "This is from GitHub ${env.BRANCH}"
+                git branch: ${env.BRANCH}, credentialsId: ${env.CREDENTIAL_ID}, url: ${env.GIT_URL}  
             }
         }
 
@@ -18,7 +18,7 @@ CREDENTIAL_ID = 'github-tocken_init'
 
                 stage('stage2') {
                     steps {
-                        sh "sleep 90"
+                        sh "ls -lrt"
                     }
                 }
 
