@@ -6,6 +6,7 @@ pipeline{
         echo "this is from github jenkins file"
       }
     }
+parallel stage(parallel) {
     stage(stage2){
       steps{
         sh"sleep 90"
@@ -16,6 +17,7 @@ pipeline{
         sh"sleep 30"
       }
     }
+}
      stage(stage4){
       steps{
         echo "pipeline is completed"
