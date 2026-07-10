@@ -20,7 +20,7 @@ CREDENTIAL_ID = 'github-tocken_init'
 
                 stage('stage2') {
                     steps {
-                        sh "ls -lrt"
+                        sh "sleep 50"
                     }
                 }
 
