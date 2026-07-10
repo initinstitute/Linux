@@ -26,7 +26,7 @@ CREDENTIAL_ID = 'github-tocken_init'
 
                 stage('stage3') {
                     steps {
-                        sh "sleep 30"
+                        sh "touch file10"
                     }
                 }
             }
