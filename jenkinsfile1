@@ -9,9 +9,9 @@ CREDENTIAL_ID = 'github-tocken_init'
     stages {       
         stage('trial') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']],
-                extensions: [], userRemoteConfigs: [[credentialsId: 'github-tocken_init',
-                url: 'https://github.com/initinstitute/Linux.git']]) 
+                     checkout scmGit(branches: [[name: '*/main']],
+                     extensions: [], userRemoteConfigs: [[credentialsId: 'github-tocken_init',
+                     url: 'https://github.com/initinstitute/Linux.git']])
             }
         }
 
