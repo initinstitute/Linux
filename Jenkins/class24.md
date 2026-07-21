@@ -1,4 +1,4 @@
-# Class 25 - Jenkins Maven Integration and Tomcat Deployment
+# Class 24 - Jenkins Maven Integration and Tomcat Deployment
 
 class URL: https://youtu.be/J_rMZZmD34g
 ## Objective
