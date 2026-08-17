@@ -1,5 +1,6 @@
 # Class 36 — AWS Lambda
 class url: https://youtu.be/KDRnq0GEWN4
+class2 : https://youtu.be/EVCRIa-RiR0
 ## 1. What is AWS Lambda?
 
 **AWS Lambda** is a serverless compute service provided by AWS.
