@@ -1,5 +1,5 @@
 # Class 40 – Kubernetes Architecture 
-class url : 
+class url : https://youtu.be/MWEz0_5dY_U
 ## 1. Introduction to Kubernetes
 
 **Kubernetes (K8s)** is an open-source container orchestration platform used to:
