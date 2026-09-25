@@ -1,5 +1,6 @@
 # Class 49 - Kubernetes Storage
 
+class url: https://youtu.be/LhtpXpvU4d0
 ## EmptyDir
 
 * `emptyDir` is a temporary storage volume created when a Pod is assigned to a Node.
