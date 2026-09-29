@@ -1,6 +1,7 @@
-# Class 49 - Kubernetes Storage
+# Class 49&50 - Kubernetes Storage
 
-class url: https://youtu.be/LhtpXpvU4d0
+class49 url: https://youtu.be/LhtpXpvU4d0
+class50(dynamic pv) url: https://youtu.be/AbVY-uMuhBg
 ## EmptyDir
 
 * `emptyDir` is a temporary storage volume created when a Pod is assigned to a Node.
