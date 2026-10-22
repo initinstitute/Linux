@@ -1,5 +1,7 @@
 # Class 60: AWS Other Important Services (AWS Secrets Manager, AWS Systems Manager Parameter Store, AWS Elastic Beanstalk, AWS Organizations, AWS Control Tower,
 Landing Zone, Guardrails, AWS Systems Manager, AWS KMS, Cross-Account IAM Role, AWS STS AssumeRole, AWS CloudFormation, HashiCorp Vault)
+
+
 class URL's: https://youtu.be/NrvVx0lW9qM
              https://youtu.be/3lnpFx5CSYA
 ## 1. AWS Secrets Manager
