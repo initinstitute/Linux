@@ -2,8 +2,9 @@
 Landing Zone, Guardrails, AWS Systems Manager, AWS KMS, Cross-Account IAM Role, AWS STS AssumeRole, AWS CloudFormation, HashiCorp Vault)
 
 
-class URL's: https://youtu.be/NrvVx0lW9qM
-             https://youtu.be/3lnpFx5CSYA
+class URL 1: https://youtu.be/NrvVx0lW9qM
+
+class URL 2: https://youtu.be/3lnpFx5CSYA
 ## 1. AWS Secrets Manager
 
 **AWS Secrets Manager** is a service used to securely store, manage, and retrieve sensitive information such as passwords, database credentials, and API keys.
